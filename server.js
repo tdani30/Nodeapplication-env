@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 const app = express(),
       bodyParser = require("body-parser");
-      port = 3080;
+      const PORT = process.env.PORT || 8081;
 
 // place holder for the data
 const users = [];
